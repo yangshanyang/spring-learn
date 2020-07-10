@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Gradle : org.springframework : spring-mvc-learn-5.2.6.BUILD-SNAPSHOT.war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f28a9ab6-d0a6-4ae5-9614-8a0b04360cc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/Dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/MyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/aop/MathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/ColorFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/MyBeanPostProccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/RainBow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/bean/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/condition/LinuxCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/condition/MacCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/condition/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/condition/MyImportSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfigOfAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfigOfAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfigOfLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfigOfProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MainConfigOfPropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/config/MyTypeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/java/com/ysy/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/resources/person.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/main/resources/spring-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfRresh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestPropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/AdvisedSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/AdvisedSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/DefaultAdvisorChainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/DefaultAdvisorChainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ReflectiveMethodInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/AfterReturningAdviceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/AfterReturningAdviceInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/ThrowsAdviceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/adapter/ThrowsAdviceInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/xml/XmlBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AspectJAutoProxyRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/FilterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/FilterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractRefreshableApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/FileSystemXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/FileSystemXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ClassPathResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ClassPathResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/util/xml/XmlValidationModeDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/util/xml/XmlValidationModeDetector.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-study">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-expression">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1Zs3clC0db1oEgtfm9Sr1bYbXra" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-mvc-learn/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.46869242" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-mvc-learn/src/main/webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ysy.test" />
+      <recent name="com.ysy.config" />
+      <recent name="com.ysy.Bean" />
+      <recent name="com.ysy.condition" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-mvc-learn/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IOCTestOfAOP">
+    <configuration name="IOCTestOfAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ysy.test.IOCTestOfAOP" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTestOfAOP.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ysy.test.IOCTestOfAOP" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTestOfProfile.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ysy.test.IOCTestOfProfile" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTestOfRresh.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ysy.test.IOCTestOfRresh" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOCTestPropertyValue.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring.spring-study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ysy.test.IOCTestPropertyValue" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springmvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.springframework : spring-mvc-learn-5.2.6.BUILD-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring-mvc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50205" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IOCTestOfAOP" />
+      <item itemvalue="JUnit.IOCTestOfAOP.test01" />
+      <item itemvalue="JUnit.IOCTestOfProfile.test01" />
+      <item itemvalue="JUnit.IOCTestOfRresh.test" />
+      <item itemvalue="JUnit.IOCTestPropertyValue.test01" />
+      <item itemvalue="Tomcat Server.springmvc" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IOCTestOfAOP" />
+        <item itemvalue="JUnit.IOCTestPropertyValue.test01" />
+        <item itemvalue="JUnit.IOCTestOfAOP.test01" />
+        <item itemvalue="JUnit.IOCTestOfRresh.test" />
+        <item itemvalue="JUnit.IOCTestOfProfile.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f28a9ab6-d0a6-4ae5-9614-8a0b04360cc9" name="Default Changelist" comment="" />
+      <created>1585614055109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585614055109</updated>
+      <workItem from="1585614057697" duration="655000" />
+      <workItem from="1585663462112" duration="3542000" />
+      <workItem from="1585753887677" duration="136000" />
+      <workItem from="1585754115268" duration="3511000" />
+      <workItem from="1585981039813" duration="1006000" />
+      <workItem from="1586046209956" duration="1272000" />
+      <workItem from="1587649990527" duration="52000" />
+      <workItem from="1588156838820" duration="3749000" />
+      <workItem from="1588479864860" duration="57000" />
+      <workItem from="1588479956063" duration="307000" />
+      <workItem from="1588480276332" duration="299000" />
+      <workItem from="1588480840239" duration="2438000" />
+      <workItem from="1588679797138" duration="5447000" />
+      <workItem from="1588759719001" duration="275000" />
+      <workItem from="1588765347934" duration="10008000" />
+      <workItem from="1589981805588" duration="3152000" />
+      <workItem from="1589986070256" duration="39000" />
+      <workItem from="1589986126159" duration="8960000" />
+      <workItem from="1590588572930" duration="9340000" />
+      <workItem from="1590846272482" duration="1970000" />
+      <workItem from="1590850599331" duration="5714000" />
+      <workItem from="1591107443944" duration="4604000" />
+      <workItem from="1591279408118" duration="3480000" />
+      <workItem from="1591286570347" duration="780000" />
+      <workItem from="1591622821835" duration="3353000" />
+      <workItem from="1591710404402" duration="7665000" />
+      <workItem from="1591883028595" duration="13286000" />
+      <workItem from="1592405772608" duration="2006000" />
+      <workItem from="1592567721907" duration="19256000" />
+      <workItem from="1593159652360" duration="5858000" />
+      <workItem from="1593251774644" duration="3608000" />
+      <workItem from="1593263758462" duration="480000" />
+      <workItem from="1593264262237" duration="672000" />
+      <workItem from="1593264955367" duration="362000" />
+      <workItem from="1593700130759" duration="25000" />
+      <workItem from="1593700183217" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="0" key="#Notifications" timestamp="1593251572184">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="0" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1593251572184" />
+    <state x="220" y="23" key="#Notifications/0.23.1440.794@0.23.1440.794" timestamp="1588765531041" />
+    <state x="220" y="34" key="#Project_Structure" timestamp="1593262081792">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="34" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1593262081792" />
+    <state x="183" y="107" width="1155" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593264576566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="183" y="107" width="1155" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1593264576566" />
+    <state x="384" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591111246134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="384" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591111246134" />
+    <state x="489" y="16" key="#com.intellij.ide.util.MemberChooser" timestamp="1593260920636">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="16" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1593260920636" />
+    <state x="489" y="37" key="#com.intellij.ide.util.MemberChooser/0.23.1440.794@0.23.1440.794" timestamp="1591283182257" />
+    <state x="321" y="51" width="799" height="798" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1593238565739">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="321" y="51" width="799" height="798" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1593238565739" />
+    <state x="408" y="187" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588479909306">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="187" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1588479909306" />
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593250916656">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1593250916656" />
+    <state width="420" height="582" key="DebuggerActiveHint" timestamp="1591890460017">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="420" height="582" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1591890460017" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1590589623753">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.23.1440.794@0.23.1440.794" timestamp="1590589623753" />
+    <state width="1388" height="253" key="GridCell.Tab.0.bottom" timestamp="1593344650171">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1388" height="253" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593265091815" />
+    <state width="1388" height="253" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1593344650171" />
+    <state width="1388" height="253" key="GridCell.Tab.0.center" timestamp="1593344650166">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1388" height="253" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593265091813" />
+    <state width="1388" height="253" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1593344650166" />
+    <state width="1388" height="253" key="GridCell.Tab.0.left" timestamp="1593344650165">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1388" height="253" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593265091811" />
+    <state width="1388" height="253" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1593344650165" />
+    <state width="1388" height="253" key="GridCell.Tab.0.right" timestamp="1593344650167">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="1388" height="253" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593265091814" />
+    <state width="1388" height="253" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1593344650167" />
+    <state width="1351" height="475" key="GridCell.Tab.1.bottom" timestamp="1593263632135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593263632135" />
+    <state width="1351" height="331" key="GridCell.Tab.1.bottom/0.23.1440.794@0.23.1440.794" timestamp="1593250106388" />
+    <state width="1351" height="475" key="GridCell.Tab.1.center" timestamp="1593263632135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1593263632135" />
+    <state width="1351" height="331" key="GridCell.Tab.1.center/0.23.1440.794@0.23.1440.794" timestamp="1593250106387" />
+    <state width="1351" height="475" key="GridCell.Tab.1.left" timestamp="1593263632134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1593263632134" />
+    <state width="1351" height="331" key="GridCell.Tab.1.left/0.23.1440.794@0.23.1440.794" timestamp="1593250106387" />
+    <state width="1351" height="475" key="GridCell.Tab.1.right" timestamp="1593263632135">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593263632135" />
+    <state width="1351" height="331" key="GridCell.Tab.1.right/0.23.1440.794@0.23.1440.794" timestamp="1593250106388" />
+    <state width="1351" height="475" key="GridCell.Tab.2.bottom" timestamp="1593263632137">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593263632137" />
+    <state width="1351" height="331" key="GridCell.Tab.2.bottom/0.23.1440.794@0.23.1440.794" timestamp="1593250106390" />
+    <state width="1351" height="475" key="GridCell.Tab.2.center" timestamp="1593263632136">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1593263632136" />
+    <state width="1351" height="331" key="GridCell.Tab.2.center/0.23.1440.794@0.23.1440.794" timestamp="1593250106389" />
+    <state width="1351" height="475" key="GridCell.Tab.2.left" timestamp="1593263632136">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1593263632136" />
+    <state width="1351" height="331" key="GridCell.Tab.2.left/0.23.1440.794@0.23.1440.794" timestamp="1593250106389" />
+    <state width="1351" height="475" key="GridCell.Tab.2.right" timestamp="1593263632136">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1593263632136" />
+    <state width="1351" height="331" key="GridCell.Tab.2.right/0.23.1440.794@0.23.1440.794" timestamp="1593250106389" />
+    <state width="1351" height="475" key="GridCell.Tab.3.bottom" timestamp="1593263112824">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593263112824" />
+    <state width="1351" height="331" key="GridCell.Tab.3.bottom/0.23.1440.794@0.23.1440.794" timestamp="1593250106391" />
+    <state width="1351" height="475" key="GridCell.Tab.3.center" timestamp="1593263112821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1593263112821" />
+    <state width="1351" height="331" key="GridCell.Tab.3.center/0.23.1440.794@0.23.1440.794" timestamp="1593250106390" />
+    <state width="1351" height="475" key="GridCell.Tab.3.left" timestamp="1593263112820">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1593263112820" />
+    <state width="1351" height="331" key="GridCell.Tab.3.left/0.23.1440.794@0.23.1440.794" timestamp="1593250106390" />
+    <state width="1351" height="475" key="GridCell.Tab.3.right" timestamp="1593263112823">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1593263112823" />
+    <state width="1351" height="331" key="GridCell.Tab.3.right/0.23.1440.794@0.23.1440.794" timestamp="1593250106391" />
+    <state width="1351" height="475" key="GridCell.Tab.4.bottom" timestamp="1593262210474">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593262210474" />
+    <state width="1351" height="475" key="GridCell.Tab.4.center" timestamp="1593262210471">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1593262210471" />
+    <state width="1351" height="475" key="GridCell.Tab.4.left" timestamp="1593262210470">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1593262210470" />
+    <state width="1351" height="475" key="GridCell.Tab.4.right" timestamp="1593262210473">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1351" height="475" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1593262210473" />
+    <state width="1388" height="354" key="GridCell.Tab.5.bottom" timestamp="1592570897494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.5.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592570897494" />
+    <state width="1388" height="354" key="GridCell.Tab.5.center" timestamp="1592570897493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.5.center/0.0.1440.900@0.0.1440.900" timestamp="1592570897493" />
+    <state width="1388" height="354" key="GridCell.Tab.5.left" timestamp="1592570897493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.5.left/0.0.1440.900@0.0.1440.900" timestamp="1592570897493" />
+    <state width="1388" height="354" key="GridCell.Tab.5.right" timestamp="1592570897494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.5.right/0.0.1440.900@0.0.1440.900" timestamp="1592570897494" />
+    <state width="1388" height="354" key="GridCell.Tab.6.bottom" timestamp="1592570909039">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.6.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592570909039" />
+    <state width="1388" height="354" key="GridCell.Tab.6.center" timestamp="1592570909036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.6.center/0.0.1440.900@0.0.1440.900" timestamp="1592570909036" />
+    <state width="1388" height="354" key="GridCell.Tab.6.left" timestamp="1592570909034">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.6.left/0.0.1440.900@0.0.1440.900" timestamp="1592570909034" />
+    <state width="1388" height="354" key="GridCell.Tab.6.right" timestamp="1592570909037">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="354" key="GridCell.Tab.6.right/0.0.1440.900@0.0.1440.900" timestamp="1592570909037" />
+    <state x="97" y="23" width="1280" height="794" key="SettingsEditor" timestamp="1593264871662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="23" width="1280" height="794" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593264871662" />
+    <state x="120" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1590851262494" />
+    <state x="382" y="83" width="681" height="743" key="StructurePopup" timestamp="1593262154439">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="382" y="83" width="681" height="743" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1593262154439" />
+    <state x="382" y="96" width="675" height="655" key="StructurePopup/0.23.1440.794@0.23.1440.794" timestamp="1589465969474" />
+    <state width="653" height="514" key="SwitcherDM" timestamp="1589465929639">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state width="653" height="514" key="SwitcherDM/0.23.1440.794@0.23.1440.794" timestamp="1589465929639" />
+    <state x="337" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590160756296">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="337" y="319" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1590160756296" />
+    <state x="337" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.794@0.23.1440.794" timestamp="1585665660509" />
+    <state x="486" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590851133273">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="486" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590591317304" />
+    <state x="486" y="337" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.794@0.23.1440.794" timestamp="1590851133273" />
+    <state x="25" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592837554166">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="25" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1592837554166" />
+    <state x="128" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.794@0.23.1440.794" timestamp="1591108676413" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1592232215392">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1592232215392" />
+    <state x="324" y="0" width="965" height="900" key="find.popup" timestamp="1593246979200">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="324" y="0" width="965" height="900" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1593246979200" />
+    <state x="324" y="23" width="792" height="794" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1585754434573" />
+    <state x="0" y="0" key="new project wizard" timestamp="1593264467053">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1593264467053" />
+    <state x="0" y="23" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1588760179781" />
+    <state x="301" y="0" width="838" height="900" key="search.everywhere.popup" timestamp="1593263320679">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="0" width="838" height="900" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1593263320679" />
+    <state x="301" y="23" width="838" height="794" key="search.everywhere.popup/0.23.1440.794@0.23.1440.794" timestamp="1593181591481" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfAOP.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>881</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>600</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1793</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1806</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>419</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>432</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>434</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>349</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>470</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-study/src/test/java/com/ysy/test/IOCTestOfAOP.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-mvc-learn/src/main/java/controller/MyController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1000</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

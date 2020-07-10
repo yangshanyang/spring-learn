@@ -1,0 +1,9 @@
+T22:15:32.745 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /unknown
+Z22:15:32.757 [Test worker] WARN  o.s.w.s.PageNotFound - No handler found for GET /unknown
+µ22:15:32.758 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /unknown]
+a22:15:32.865 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /knownOnlyToParent.do
+	T22:15:32.920 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+T22:15:33.052 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+W22:15:33.307 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /unknown.do
+!T22:15:33.557 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+%W22:15:33.633 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /invalid.do

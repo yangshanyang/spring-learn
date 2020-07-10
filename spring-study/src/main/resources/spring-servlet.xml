@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name="/hello" class="com.ysy.controller.MyController"></bean>
+
+<!--定义HandlerMapping-->
+	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" id="handlerMapping">
+		<property name="beanName" value="/hello"></property>
+	</bean>
+<!--定义HandlerAdaptor-->
+	<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter" id="handlerAdapter"></bean>
+
+<!--定义视图解析器-->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="resourceViewResolver">
+		<property name="prefix" value="/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+</beans>
